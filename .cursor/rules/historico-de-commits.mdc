@@ -1,0 +1,13 @@
+---
+description: Preservar um histórico claro de desenvolvimento para avaliação acadêmica
+alwaysApply: true
+---
+
+# Histórico de commits
+
+- Fazer um commit ao concluir cada etapa coerente do projeto, conforme solicitado pelo usuário.
+- Usar mensagens descritivas em português, como `feat: adicionar cadastro de ocorrências`, `fix: corrigir validação de endereço` e `docs: documentar execução local`.
+- Separar mudanças independentes; não criar commits artificiais para inflar o histórico.
+- Revisar o diff e executar as verificações pertinentes antes de cada commit, registrando limitações quando houver.
+- Incluir apenas arquivos relacionados à etapa e nunca credenciais, segredos ou alterações alheias.
+- Preservar a sequência real de desenvolvimento; não reescrever commits publicados sem solicitação explícita.
