@@ -1,0 +1,1 @@
+<section class="empty-state"><i class="bi bi-info-circle" aria-hidden="true"></i><h1><?= e($title) ?></h1><p><?= e($message) ?></p><div class="d-flex justify-content-center gap-3"><a class="btn btn-primary" href="<?= e(url('/')) ?>">Página inicial</a><a class="btn btn-outline-primary" href="<?= e(url('/entrar')) ?>">Entrar na conta</a></div></section>

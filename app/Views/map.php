@@ -1,0 +1,4 @@
+<div class="page-heading"><p class="eyebrow">EXPLORE RIO DO SUL</p><h1><?= e($title) ?></h1><p>Encontre relatos da comunidade na região que você está visualizando.</p></div>
+<?php $mapMode=true; require ROOT.'/app/Views/partials/filters.php'; ?>
+<div class="map-toolbar"><a href="<?= e(url('/ocorrencias',array_diff_key($_GET,['r'=>true]))) ?>" class="btn btn-outline-primary btn-sm"><i class="bi bi-list" aria-hidden="true"></i> Ver listagem</a><button class="btn btn-outline-primary btn-sm" id="locate" type="button">Usar minha localização</button><span id="map-status" role="status">Carregando relatos…</span></div>
+<div class="map-large" id="occurrence-map" aria-label="Mapa interativo de ocorrências"></div><p class="small text-secondary mt-2">Cada marcador representa um relato comunitário. Use a listagem para navegar pelos relatos com leitor de tela. O mapa base depende de conexão à internet.</p>
