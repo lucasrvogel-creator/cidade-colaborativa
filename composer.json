@@ -1,0 +1,8 @@
+{
+  "name": "cidadecolaborativa/plataforma",
+  "description": "Plataforma acadêmica de monitoramento urbano em PHP",
+  "type": "project",
+  "require": {"php": ">=8.2", "ext-pdo": "*", "ext-pdo_mysql": "*", "ext-mbstring": "*", "ext-fileinfo": "*", "ext-gd": "*"},
+  "autoload": {"psr-4": {"App\\": "app/"}},
+  "scripts": {"test": "php tests/run.php"}
+}

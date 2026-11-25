@@ -9,3 +9,11 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Dependências e dados privados
+/node_modules/
+/vendor/
+/storage/*
+!/storage/.gitkeep
+/public/assets/vendor/
+/tests/.runtime/
