@@ -1,5 +1,6 @@
 'use strict';
-const endpoint = (route, params = {}) => '/index.php?' + new URLSearchParams({ r: route, ...params });
+const basePath = document.querySelector('meta[name="base-path"]')?.content || '';
+const endpoint = (route, params = {}) => `${basePath}/index.php?` + new URLSearchParams({ r: route, ...params });
 const byId = id => document.getElementById(id);
 const statusText = { PUBLICADA: 'Publicada', EM_ACOMPANHAMENTO: 'Em acompanhamento', RESOLVIDA: 'Resolvida' };
 const textNode = (tag, text, className = '') => { const el = document.createElement(tag); el.textContent = text; el.className = className; return el; };

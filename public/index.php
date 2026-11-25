@@ -6,8 +6,20 @@ use App\Services\HttpError;
 use App\Middleware\Auth;
 
 try {
+    if (!is_file(ROOT . '/.env')) {
+        $installer = new App\Services\XamppInstaller();
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') $installer->install();
+        if ($_SERVER['REQUEST_METHOD'] !== 'GET') throw new HttpError(405, 'Método não permitido.');
+        $installer->show();
+        exit;
+    }
     $routes = require ROOT . '/routes/web.php';
     $path = $_GET['r'] ?? parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    if (!isset($_GET['r']) && is_string($path)) {
+        $prefix = base_path();
+        if ($prefix !== '' && str_starts_with($path, $prefix)) $path = substr($path, strlen($prefix));
+        if ($path === '' || $path === false) $path = '/';
+    }
     $key = $_SERVER['REQUEST_METHOD'] . ' ' . $path;
     if (!is_string($path) || !isset($routes[$key])) throw new HttpError(404, 'Página não encontrada.');
     [$class, $method, $role] = $routes[$key];

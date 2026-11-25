@@ -73,3 +73,7 @@ Não há atualização automática, medição em tempo real ou previsão hidrol�
 `tests/run.php` verifica estados, coordenadas, senhas, escape HTML e arquivos. `tests/http.php` faz requisições reais para testar acesso por perfil, cadastro, moderação, imagens, notificações, auditoria e cotas; remove seus registros temporários ao final. O resultado fica em `docs/testes/resultado-http.json`.
 
 Esta explicação descreve o código atual. A especificação acadêmica tem escopo mais amplo. Entrevistas, validação com órgãos públicos, integração automática e avaliação em produção não foram realizadas. O histórico Git registra as etapas implementadas.
+
+## Instalação inicial no XAMPP
+
+Quando `.env` ainda não existe, `public/index.php` apresenta o assistente `XamppInstaller`. Ele só aceita configuração por `localhost`, pede as credenciais administrativas do MySQL e a nova conta de administrador da aplicação, cria o esquema, carrega os dados demonstrativos e importa as cotas. Depois cria um usuário MySQL restrito ao banco do projeto e grava a configuração em `.env`, que permanece ignorado pelo Git. O assistente exige um banco vazio; ele não altera bancos com tabelas existentes. As bibliotecas usadas em runtime ficam versionadas em `public/assets/vendor`, portanto não é necessário executar Node/npm em outra máquina para abrir o sistema.

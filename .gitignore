@@ -15,5 +15,4 @@ Thumbs.db
 /vendor/
 /storage/*
 !/storage/.gitkeep
-/public/assets/vendor/
 /tests/.runtime/

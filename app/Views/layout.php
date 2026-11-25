@@ -3,10 +3,11 @@
 <title><?= e($title ?? 'Participação cidadã') ?> · CidadeColaborativa</title>
 <meta name="description" content="Plataforma acadêmica de participação comunitária e monitoramento urbano em Rio do Sul.">
 <meta name="csrf-token" content="<?= e($_SESSION['csrf']??'') ?>">
-<link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css"><link rel="stylesheet" href="/assets/vendor/icons/bootstrap-icons.min.css">
-<link rel="stylesheet" href="/assets/vendor/leaflet/leaflet.css"><link rel="stylesheet" href="/assets/css/app.css">
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script><script src="/assets/vendor/leaflet/leaflet.js" defer></script>
-<script src="/assets/vendor/chart/chart.umd.js" defer></script><script src="/assets/js/app.js" defer></script></head>
+<meta name="base-path" content="<?= e(base_path()) ?>">
+<link rel="stylesheet" href="<?= e(asset_url('/assets/vendor/bootstrap/css/bootstrap.min.css')) ?>"><link rel="stylesheet" href="<?= e(asset_url('/assets/vendor/icons/bootstrap-icons.min.css')) ?>">
+<link rel="stylesheet" href="<?= e(asset_url('/assets/vendor/leaflet/leaflet.css')) ?>"><link rel="stylesheet" href="<?= e(asset_url('/assets/css/app.css')) ?>?v=<?= (int) filemtime(ROOT.'/public/assets/css/app.css') ?>">
+<script src="<?= e(asset_url('/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')) ?>" defer></script><script src="<?= e(asset_url('/assets/vendor/leaflet/leaflet.js')) ?>" defer></script>
+<script src="<?= e(asset_url('/assets/vendor/chart/chart.umd.min.js')) ?>" defer></script><script src="<?= e(asset_url('/assets/js/app.js')) ?>" defer></script></head>
 <body><a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 <aside class="portal-sidebar"><a class="portal-brand" href="<?= e(url('/')) ?>"><i class="bi bi-buildings" aria-hidden="true"></i><span>CidadeColaborativa<small>RIO DO SUL · SC</small></span></a>
 <button class="btn btn-outline-light d-lg-none m-3" data-bs-toggle="collapse" data-bs-target="#portal-menu" aria-controls="portal-menu" aria-expanded="false">Menu de navegação</button>

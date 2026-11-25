@@ -24,7 +24,10 @@ final class AuthController extends Controller {
         $user = DB::one('SELECT * FROM usuarios WHERE email=?',[$email]);
         $dummy = '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2uheWG/igi.';
         $valid = password_verify((string)($_POST['senha'] ?? ''), $user['senha_hash'] ?? $dummy);
-        if (!$valid || !$user || $user['status'] !== 'ativo') throw new HttpError(422,'E-mail ou senha inválidos, ou conta indisponível.');
+        if (!$valid || !$user || $user['status'] !== 'ativo') {
+            flash('E-mail ou senha inválidos, ou conta indisponível.', 'danger');
+            redirect('/entrar');
+        }
         session_regenerate_id(true); $_SESSION['user_id']=$user['id']; $_SESSION['csrf']=bin2hex(random_bytes(32));
         redirect($user['perfil'] === 'admin' ? '/admin' : ($user['perfil'] === 'operador' ? '/admin/ocorrencias' : '/painel'));
     }
