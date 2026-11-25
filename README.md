@@ -65,3 +65,7 @@ Os testes HTTP exigem `APP_ENV=local`, criam registros temporários e os removem
 - [Protótipos iniciais](docs/prototipos/index.html)
 
 O histórico preserva a base inicial React e sua substituição por PHP após a definição dos requisitos. Dependências, credenciais, sessões, banco local e uploads ficam fora do Git. A especificação é o escopo planejado e não comprova conclusão de todas as entregas. Este sistema acadêmico não é um canal oficial da Prefeitura ou Defesa Civil.
+
+
+Login: admin@cidadecolaborativa.local
+Senha: Cc!be92a77c3a10c9e3
