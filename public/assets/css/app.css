@@ -9,3 +9,7 @@ body{font-family:"Segoe UI",Arial,sans-serif;background:#f1f4f7;font-size:15px;c
 @media(max-width:991px){.portal-sidebar{position:relative;width:100%;max-height:none}.portal-body{margin-left:0}.portal-brand{padding:16px}.management-grid{grid-template-columns:repeat(2,1fr)}.main-content{padding:24px 20px}.portal-topbar,.academic-notice{padding:12px 20px}}
 @media(max-width:575px){.management-grid{grid-template-columns:1fr}.portal-topbar span:last-child{display:none}.main-content{padding:20px 14px}.page-heading h1{font-size:1.65rem}.surface{padding:16px}.home-map{height:330px}.portal-footer{padding:20px 14px}.section-heading{gap:12px}}
 .auth-layout .btn-primary{color:#fff;background-color:#17649c;border-color:#17649c}.auth-layout .btn-primary:hover,.auth-layout .btn-primary:focus{color:#fff;background-color:#104f7b;border-color:#104f7b}.auth-layout .btn-primary:active{color:#fff;background-color:#0d4268;border-color:#0d4268}
+
+.sidebar-account a.btn-light {
+  color: #123e60;
+}

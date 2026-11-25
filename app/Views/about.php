@@ -15,4 +15,5 @@
     <p>Projeto de extensão da disciplina Programação Web I, Sistemas de Informação, UNIDAVI. O desenvolvimento prioriza PHP, organização MVC e segurança no servidor. Entrevistas e validação com interessados ainda dependem da realização efetiva pelo grupo.</p>
     <h2>O que a plataforma não faz</h2>
     <p>Não representa a prefeitura ou a Defesa Civil, não abre chamados oficiais e não prevê enchentes. A situação “em acompanhamento” indica acompanhamento pela plataforma.</p><a class="btn btn-primary" href="<?= e(url('/mapa')) ?>">Conhecer o mapa</a>
+    <p>Alunos: Eduardo maeberg e Lucas Vogel</p>
 </article>
