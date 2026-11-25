@@ -6,6 +6,16 @@ use App\Services\{DatabaseHydrology, Validation as V, HttpError, OccurrenceServi
 use App\Middleware\Auth;
 
 final class HydrologyController extends Controller {
+    public function quotas(): void {
+        $search=is_string($_GET['busca']??null)?trim($_GET['busca']):'';
+        $page=max(1,(int)($_GET['page']??1)); $offset=($page-1)*50;
+        $staff=Auth::user(); $admin=$staff && $staff['perfil']==='admin';
+        $where=$admin?'1=1':'ativo=1'; $params=[];
+        if ($search!=='') {$where.=' AND rua LIKE ?'; $params[]='%'.$search.'%';}
+        $this->view('quotas',['title'=>'Cotas de inundação por rua','search'=>$search,'page'=>$page,'admin'=>$admin,
+            'count'=>DB::one("SELECT COUNT(*) total FROM cotas_inundacao WHERE $where",$params)['total'],
+            'rows'=>DB::all("SELECT * FROM cotas_inundacao WHERE $where ORDER BY rua LIMIT 50 OFFSET $offset",$params)]);
+    }
     public function page(): void {
         $stations=DB::all('SELECT DISTINCT estacao,referencia FROM niveis_rio UNION SELECT DISTINCT estacao_referencia estacao,referencia FROM cotas_inundacao ORDER BY estacao');
         $station=is_string($_GET['estacao']??null)?$_GET['estacao']:($stations[0]['estacao']??'');
@@ -21,6 +31,14 @@ final class HydrologyController extends Controller {
         $this->view('admin/hydrology',['title'=>'Dados hidrológicos','levels'=>DB::all('SELECT * FROM niveis_rio ORDER BY registrado_em DESC LIMIT 50'),'quotas'=>DB::all('SELECT * FROM cotas_inundacao ORDER BY atualizado_em DESC LIMIT 50')]+Occurrence::taxonomy());
     }
     public function save(): void {
+        if (($_POST['acao']??'')==='ativar_cota') {
+            $id=V::id($_POST['id']??null);
+            DB::transaction(function () use ($id) {
+                if (!DB::one('SELECT id FROM cotas_inundacao WHERE id=?',[$id])) throw new HttpError(404,'Cota não encontrada.');
+                DB::query('UPDATE cotas_inundacao SET ativo=? WHERE id=?',[isset($_POST['ativo'])?1:0,$id]);
+                OccurrenceService::audit(Auth::require('admin')['id'],'situacao_cota','cotas_inundacao',$id,'Disponibilidade atualizada.');
+            }); flash('Cota atualizada.'); redirect('/cotas');
+        }
         $type=$_POST['tipo']??''; if (!in_array($type,['nivel','cota'],true)) throw new HttpError(422,'Tipo de dado inválido.');
         $level=$_POST['valor']??null; if (!is_numeric($level) || (float)$level<0 || (float)$level>100) throw new HttpError(422,'Valor deve estar entre 0 e 100 metros.');
         $data=['referencia'=>V::text($_POST,'referencia',2,120),'fonte'=>V::text($_POST,'fonte',3,190),'url_fonte'=>V::sourceUrl(V::text($_POST,'url_fonte',8,500)),'demonstracao'=>isset($_POST['demonstracao'])?1:0];

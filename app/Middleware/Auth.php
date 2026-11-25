@@ -15,6 +15,8 @@ final class Auth {
         $user = self::user();
         if (!$user) throw new HttpError(401, 'Entre em uma conta ativa para continuar.');
         if ($role === 'admin' && $user['perfil'] !== 'admin') throw new HttpError(403, 'Esta área é exclusiva da administração.');
+        if ($role === 'staff' && !in_array($user['perfil'], ['admin','operador'], true)) throw new HttpError(403, 'Acesso restrito à equipe de atendimento.');
+        if ($role === 'citizen' && $user['perfil'] === 'operador') throw new HttpError(403, 'O perfil operador é destinado ao atendimento dos chamados.');
         return $user;
     }
     public static function csrf(): void {

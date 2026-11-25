@@ -30,7 +30,7 @@ final class Occurrence {
     }
     public static function find(int $id, ?array $user): array {
         $row=Database::one('SELECT o.*,c.nome categoria,b.nome bairro,s.nome subcategoria FROM ocorrencias o JOIN categorias c ON c.id=o.categoria_id JOIN bairros b ON b.id=o.bairro_id LEFT JOIN subcategorias s ON s.id=o.subcategoria_id WHERE o.id=?',[$id]);
-        if (!$row || (!in_array($row['status'],OccurrenceState::PUBLIC,true) && (!$user || ($user['perfil']!=='admin' && (int)$user['id']!==(int)$row['usuario_id'])))) throw new HttpError(404,'Ocorrência não encontrada.');
+        if (!$row || (!in_array($row['status'],OccurrenceState::PUBLIC,true) && (!$user || (!in_array($user['perfil'],['admin','operador'],true) && (int)$user['id']!==(int)$row['usuario_id'])))) throw new HttpError(404,'Ocorrência não encontrada.');
         return $row;
     }
     public static function taxonomy(): array {

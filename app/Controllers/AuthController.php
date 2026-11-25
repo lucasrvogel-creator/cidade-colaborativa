@@ -26,7 +26,7 @@ final class AuthController extends Controller {
         $valid = password_verify((string)($_POST['senha'] ?? ''), $user['senha_hash'] ?? $dummy);
         if (!$valid || !$user || $user['status'] !== 'ativo') throw new HttpError(422,'E-mail ou senha inválidos, ou conta indisponível.');
         session_regenerate_id(true); $_SESSION['user_id']=$user['id']; $_SESSION['csrf']=bin2hex(random_bytes(32));
-        redirect($user['perfil'] === 'admin' ? '/admin' : '/painel');
+        redirect($user['perfil'] === 'admin' ? '/admin' : ($user['perfil'] === 'operador' ? '/admin/ocorrencias' : '/painel'));
     }
     public function logout(): void {
         $_SESSION=[]; session_regenerate_id(true); $_SESSION['csrf']=bin2hex(random_bytes(32)); redirect('/');

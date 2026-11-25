@@ -1,0 +1,3344 @@
+{
+  "fonte": "Defesa Civil de Rio do Sul — Planilha Inundação de Ruas (A–Z)",
+  "url": "https://defesacivil.riodosul.sc.gov.br/",
+  "arquivo_publico": "https://defesacivil.riodosul.sc.gov.br/assets/index-r2-BzuAJG6w.js",
+  "consultado_em": "2026-11-25",
+  "data_atualizacao_fonte": null,
+  "estacao": "Ponte Dom Tito Buss",
+  "referencia": "Régua da Ponte Dom Tito Buss",
+  "bairro": "Não informado na tabela de origem",
+  "sha256_arquivo": "1b464d4b6a3bc455042229b4b6cb81db5cc931325d6edfbe3865e3be9bdd3507",
+  "observacao": "20,00+ é limite aberto acima de 20 m, não uma cota exata de 20 m. Mínima ausente permanece nula. Não é leitura em tempo real.",
+  "registros": [
+    {
+      "rua": "1 DE MAIO",
+      "minima": 8.12,
+      "maxima": 9.65,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "10 DE OUTUBRO",
+      "minima": 8.25,
+      "maxima": 10.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "13 DE AGOSTO",
+      "minima": 10.95,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "15 DE ABRIL",
+      "minima": 8.09,
+      "maxima": 11.74,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "7 DE SETEMBRO",
+      "minima": 11.59,
+      "maxima": 12.52,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "A DO LOTEAMENTO AG",
+      "minima": 12.33,
+      "maxima": 12.63,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "A DO LOTEAMENTO SAO JOSE",
+      "minima": 18.92,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ABRAHAM LINCOLN",
+      "minima": 10.19,
+      "maxima": 13.52,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ACADEMICO NILO MARCHI",
+      "minima": 14.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ACARY ISMAR DALFOVO",
+      "minima": 15.63,
+      "maxima": 19.44,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ADEMAR OHF",
+      "minima": 17.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO BECHTOLD",
+      "minima": 18.84,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO BET",
+      "minima": 16.33,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO BUHR",
+      "minima": 9.3,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO FELAU",
+      "minima": 12.3,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO KOLPING",
+      "minima": 18.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ADOLFO KONDER",
+      "minima": 8.93,
+      "maxima": 9.83,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AGNELO JOAO DA CRUZ",
+      "minima": 11.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "AGUA DOCE",
+      "minima": 8.92,
+      "maxima": 13.67,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AGUAS MORNAS",
+      "minima": 10.71,
+      "maxima": 13.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AIMORES",
+      "minima": 7.29,
+      "maxima": 9.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALBANO FRONZA",
+      "minima": 12.92,
+      "maxima": 13.99,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALBERT EINSTEIN",
+      "minima": 7.23,
+      "maxima": 9.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALDINA LEDRA FAVA",
+      "minima": 9.86,
+      "maxima": 11.05,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALDO TOMIO",
+      "minima": 9,
+      "maxima": 10.14,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALFONSO MANTOVANI",
+      "minima": 14.59,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ALFREDO BRATTING",
+      "minima": 8.78,
+      "maxima": 11.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALFREDO FRIEDEL",
+      "minima": 9,
+      "maxima": 11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALFREDO GRUNWALD",
+      "minima": 9.7,
+      "maxima": 11.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALFREDO PEREIRA DE MEDEIROS",
+      "minima": 10.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ALFREDO SATIRO DE OLIVEIRA",
+      "minima": 18.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ALFREDO SCHNEIDER",
+      "minima": 10.08,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ALFREDO SWAROWSKY",
+      "minima": 10.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ALMIRANTE TAMANDARE",
+      "minima": 7.53,
+      "maxima": 9.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALOIS PERFOLL",
+      "minima": 8.8,
+      "maxima": 9.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALTINO JOAO DA ROCHA",
+      "minima": 11.2,
+      "maxima": 14.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALVARES CABRAL",
+      "minima": 9.3,
+      "maxima": 9.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ALVIN MENSLIN",
+      "minima": 9.63,
+      "maxima": 11.74,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AMABILIO TESTONI",
+      "minima": 12.02,
+      "maxima": 12.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AMERICA",
+      "minima": 19.3,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANA BELLEGANTE",
+      "minima": 11.57,
+      "maxima": 11.87,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANA NEGHERBON",
+      "minima": 8.28,
+      "maxima": 9.06,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANA NERY",
+      "minima": 9.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANDRADINA",
+      "minima": 9.71,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANDRE LARGURA",
+      "minima": 7.35,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANGELO CECHET",
+      "minima": 7.82,
+      "maxima": 16.12,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANGELO LEDRA",
+      "minima": 9.1,
+      "maxima": 10.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANGELO LENZI",
+      "minima": 10.93,
+      "maxima": 11.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANGELO SLOMP",
+      "minima": 10,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANGELO TOMIO",
+      "minima": 8.91,
+      "maxima": 10.49,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANILDO DE OLIVEIRA",
+      "minima": 8.08,
+      "maxima": 8.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANITA GARIBALDI",
+      "minima": 9.2,
+      "maxima": 11.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANITAPOLIS",
+      "minima": 11.56,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIA CORDEIRO",
+      "minima": 19.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIO DOLZANI",
+      "minima": 18.92,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIO JOSE POLEZA",
+      "minima": 12.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIO PACKER",
+      "minima": 19.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIO SALLA",
+      "minima": 12.71,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ANTONIO SILVEIRA RAMOS",
+      "minima": 11.23,
+      "maxima": 18.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ANTONIO TONON",
+      "minima": 8.73,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARGENTINA",
+      "minima": 17.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARI ACARY DE SOUZA",
+      "minima": 10.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARI LEDRA",
+      "minima": 19.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARISTILIANO RAMOS",
+      "minima": 9.04,
+      "maxima": 14.34,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ARNOLDO HOFFMANN",
+      "minima": 12.02,
+      "maxima": 13.06,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ARNOLDO MOLINARI",
+      "minima": 12.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARNOLDO TILLMANN",
+      "minima": 10.66,
+      "maxima": 11.21,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ARNOLDO WUTZOW",
+      "minima": 7.41,
+      "maxima": 8.89,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ARTHUR HERING",
+      "minima": 10.17,
+      "maxima": 11.2,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ARTUR LENZI",
+      "minima": 10.9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ARTUR SIEWERDT",
+      "minima": 8.3,
+      "maxima": 10.3,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ASSIS BRASIL",
+      "minima": 8.52,
+      "maxima": 10.38,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ATLETA MARISTELA ROSSINI",
+      "minima": 8.6,
+      "maxima": 10.4,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AUGUSTO PERFOLL",
+      "minima": 16.3,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "AUGUSTO SOFKA",
+      "minima": 17.15,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "B - LOT LUIZ BIANCHET",
+      "minima": 17.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "B DO LOTEAMENTO AG",
+      "minima": 11.5,
+      "maxima": 12,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BAGDA",
+      "minima": 10.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BAHIA",
+      "minima": 9.14,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BARAO DO RIO BRANCO",
+      "minima": 8.66,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BASILIO CORREIA DE NEGREDO",
+      "minima": 11.6,
+      "maxima": 12.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BELA ALIANCA",
+      "minima": 9.3,
+      "maxima": 12.8,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BENEDITO NOVO",
+      "minima": 18.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BENTO DE OLIVEIRA",
+      "minima": 13.65,
+      "maxima": 13.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BENTO JOSE DA ROCHA",
+      "minima": 10.8,
+      "maxima": 17.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BENTO JOSE DAVILA",
+      "minima": 6.7,
+      "maxima": 8.3,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BERNARDO LANGE",
+      "minima": 13.1,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BLUMENAU",
+      "minima": 8.2,
+      "maxima": 17.52,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "BOA ESPERANCA",
+      "minima": 12.44,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BOM PASTOR",
+      "minima": 11,
+      "maxima": 11.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "Bonfim",
+      "minima": 8.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BR 470",
+      "minima": 11.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BRACO BELA ALIANCA",
+      "minima": 16.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BRASIL",
+      "minima": 10.58,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BRASILIA",
+      "minima": 9.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BRUSQUE",
+      "minima": 13.1,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "BULCAO VIANA",
+      "minima": 8.16,
+      "maxima": 10.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CAETANO CE",
+      "minima": 9.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CAETANO FALETTI",
+      "minima": 16.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CALIFORNIA",
+      "minima": 10.15,
+      "maxima": 10.4,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CAMPINAS",
+      "minima": 9.67,
+      "maxima": 9.86,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CANDIDO NASATO",
+      "minima": 13,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CAPINZAL",
+      "minima": 10.11,
+      "maxima": 13.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CARLOS CHAGAS",
+      "minima": 14.9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CARLOS EGER",
+      "minima": 8.5,
+      "maxima": 11.96,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CARLOS GOMES",
+      "minima": 9.8,
+      "maxima": 12.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CARLOS KNAPPMANN",
+      "minima": 10.4,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CASTRO ALVES",
+      "minima": 8.2,
+      "maxima": 15.96,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CEDRO",
+      "minima": 15,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CELSO CONZATTI",
+      "minima": 11.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CIPRESTE",
+      "minima": 15.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "CLEMENTE DEMARCH",
+      "minima": 8.16,
+      "maxima": 12.3,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "COELHO NETO",
+      "minima": 7.7,
+      "maxima": 10.43,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CONRADO PROBST",
+      "minima": 8.56,
+      "maxima": 10,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CONSELHEIRO WILLY HERING",
+      "minima": 8.76,
+      "maxima": 18.23,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CORUPA",
+      "minima": 9.21,
+      "maxima": 9.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CRISTIANO KNOLL",
+      "minima": 8.62,
+      "maxima": 10.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CRISTINA BUZZI",
+      "minima": 10.01,
+      "maxima": 10.54,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CURITIBANOS",
+      "minima": 8.25,
+      "maxima": 10.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "CURT SCHROEDER",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DA ETERNIDADE",
+      "minima": 12.79,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DA MADEIRA",
+      "minima": 7.89,
+      "maxima": 12.75,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DA PENHA",
+      "minima": 15.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DANIEL ANDREATTA",
+      "minima": 13.77,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DECIO GIOVANE SCHLATTER",
+      "minima": 9.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DEMETRIO FACHINI",
+      "minima": 6.3,
+      "maxima": 8.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DEPUTADO WALTER ROUSSENQ",
+      "minima": 10.73,
+      "maxima": 17.17,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DESCANSO",
+      "minima": 10,
+      "maxima": 13.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DESIDERIO FINARDI",
+      "minima": 10.36,
+      "maxima": 11.36,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DO ACRE",
+      "minima": 9.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DO ESCULTOR",
+      "minima": 10.2,
+      "maxima": 15.34,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DO REDENTOR",
+      "minima": 19.32,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DOM BOSCO",
+      "minima": 10.06,
+      "maxima": 12.96,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DOM PEDRO II",
+      "minima": 9.22,
+      "maxima": 10.68,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DONA AUGUSTA DEEKE",
+      "minima": 8.59,
+      "maxima": 12.19,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DONA FRANCISCA",
+      "minima": 18.5,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DOS CACADORES",
+      "minima": 8.9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DOS METALURGICOS",
+      "minima": 13,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DOS PIONEIROS",
+      "minima": 13.7,
+      "maxima": 19.69,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DOS VEREADORES",
+      "minima": 12.9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "DOUGLAS MICHAEL SCHNAIDER",
+      "minima": 7.3,
+      "maxima": 7.86,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DR GUILHERME GEMBALLA",
+      "minima": 11.02,
+      "maxima": 12.95,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DR NEUMANN",
+      "minima": 9.55,
+      "maxima": 18.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DUQUE DE CAXIAS",
+      "minima": 9.01,
+      "maxima": 10.59,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "DURVAL VICTOR DE ANDRADE",
+      "minima": 7.45,
+      "maxima": 7.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EDGAR KAESTNER",
+      "minima": 8.16,
+      "maxima": 8.98,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EDILSON CESAR SCHLEMPER",
+      "minima": 10.8,
+      "maxima": 11.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EDINEI DE SOUZA",
+      "minima": 8.5,
+      "maxima": 15.2,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ELISEU GONCALO DO NASCIMENTO",
+      "minima": 10.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ELIZABETH JASPER",
+      "minima": 18.77,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ELMA LENZI",
+      "minima": 10.24,
+      "maxima": 12.42,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ELVIRA GEORG FRIEDEL",
+      "minima": 10.28,
+      "maxima": 14.3,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EMANUEL KANT",
+      "minima": 7.2,
+      "maxima": 10.4,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EMILIO ADAMI",
+      "minima": 12.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EMILIO FERRARI",
+      "minima": 16.88,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EMILIO LENZ",
+      "minima": 9.51,
+      "maxima": 11.79,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EMILIO SCHULZE",
+      "minima": 12.98,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EMILIO TREVESANI",
+      "minima": 9.89,
+      "maxima": 11.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ENGENHEIRO BAUNGARTEN",
+      "minima": 9.11,
+      "maxima": 10.57,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ENGENHEIRO ODEBRECHT",
+      "minima": 7.31,
+      "maxima": 10.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ENO JOSE MATTOS",
+      "minima": 7.6,
+      "maxima": 8.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERCILIO MARCELINO",
+      "minima": 7.87,
+      "maxima": 8.89,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERICK GERMANO NAU",
+      "minima": 14.78,
+      "maxima": 15.08,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERMINIO JOAO FRONZA",
+      "minima": 13.28,
+      "maxima": 19.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERMINIO STOLF",
+      "minima": 18,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ERNESTO FELDMANN",
+      "minima": 12.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ERNESTO MICHELSON",
+      "minima": 10.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ERNESTO SCHOENAU",
+      "minima": 10.08,
+      "maxima": 10.95,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERVIN DOLZAN",
+      "minima": 10.12,
+      "maxima": 11.44,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ERVINO DEBARBA",
+      "minima": 10.3,
+      "maxima": 10.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ESCRIVAO OSVALDO MARHOFER",
+      "minima": 9.06,
+      "maxima": 9.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EUCLIDES ATACLIDES DA COSTA",
+      "minima": 10.65,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EUGENIO MARCHI",
+      "minima": 9.07,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EUGENIO MASSON",
+      "minima": 17.34,
+      "maxima": 18.33,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "EVALDIR JOSE JASPER",
+      "minima": 18.12,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EXPEDICIONARIO ALEANDRO STEDILE",
+      "minima": 10.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EXPEDICIONARIO GIUSEPPE VALLE",
+      "minima": 12.47,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "EXPEDICIONARIO MENELAU CLAUDINO DOS SANTOS",
+      "minima": 15.82,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "FERNANDINO JAHN",
+      "minima": 10.68,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "FERNANDO CERUTTI",
+      "minima": 8.11,
+      "maxima": 17.56,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FERNANDO SILVA",
+      "minima": 9.8,
+      "maxima": 11.8,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FLORINDA CONINCK",
+      "minima": 9.79,
+      "maxima": 11.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FORTALEZA",
+      "minima": 10.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "FRAIBURGO",
+      "minima": 9.21,
+      "maxima": 10.76,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRANCISCO CARVALHO",
+      "minima": 8.11,
+      "maxima": 13.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRANCISCO CAVILHA",
+      "minima": 9.58,
+      "maxima": 10.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRANCISCO FERNANDES",
+      "minima": 9.73,
+      "maxima": 10.16,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRANCISCO FERRARI",
+      "minima": 18.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "FRANCISCO LEOPOLDINO DE SOUZA",
+      "minima": 8.11,
+      "maxima": 8.2,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRANCISCO RUSSI",
+      "minima": 12.36,
+      "maxima": 17.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FREDERICO MENEGHETTI",
+      "minima": 8.11,
+      "maxima": 10.6,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FREI STANISLAU",
+      "minima": 8.11,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "FRITZ SUSSENBACH",
+      "minima": 11.26,
+      "maxima": 13.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GARUVA",
+      "minima": 13.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GASPAR",
+      "minima": 11,
+      "maxima": 17.05,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GENERAL OSORIO",
+      "minima": 9.23,
+      "maxima": 10.47,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GENESIO DA CRUZ",
+      "minima": 14.72,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GEORG LUCAS",
+      "minima": 9.62,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GEORG RAUSCH",
+      "minima": 9.5,
+      "maxima": 11.37,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GERALDO GEISER",
+      "minima": 10.1,
+      "maxima": 11.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GERMANO AUGUSTO OTTO LADEWIG",
+      "minima": 10,
+      "maxima": 11.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GERMANO FRONZA",
+      "minima": 11.02,
+      "maxima": 11.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GERMANO SANDRI",
+      "minima": 8.61,
+      "maxima": 13.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GERMANO STOLF",
+      "minima": 9.88,
+      "maxima": 10.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GIOCONDO TRAVAGLIA",
+      "minima": 9.71,
+      "maxima": 16.95,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GONCALVES DIAS",
+      "minima": 10.78,
+      "maxima": 15.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GOVERNADOR IVO SILVEIRA",
+      "minima": 10.24,
+      "maxima": 19.88,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GOVERNADOR JORGE LACERDA",
+      "minima": 8.99,
+      "maxima": 9.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GUAIANAZES",
+      "minima": 7.73,
+      "maxima": 8.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GUILHERME JOOS",
+      "minima": 11,
+      "maxima": 12.22,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GUILHERME LAUBENSTEIN",
+      "minima": 9.1,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GUILHERME RICARDO BECKER",
+      "minima": 9.79,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GUILHERME WITT",
+      "minima": 11.2,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GUINO RIETER",
+      "minima": 7.3,
+      "maxima": 7.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "GUSTAV HASSE",
+      "minima": 13.85,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GUSTAVO METZGER",
+      "minima": 11.96,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "GUSTAVO STADNICK",
+      "minima": 10.11,
+      "maxima": 17.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HAROLDO LEOPOLDO SWAROWSKY",
+      "minima": 16.61,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HEITOR LARGURA",
+      "minima": 9.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HEITOR LUZ",
+      "minima": 11.8,
+      "maxima": 14.32,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HENRIQUE CONICK",
+      "minima": 9.69,
+      "maxima": 10,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HENRIQUE DEGENHARDT",
+      "minima": 17.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HENRIQUE MULLER",
+      "minima": 6.75,
+      "maxima": 11.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HENRIQUE SCHUTZE",
+      "minima": 10.68,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HERCULANO NUNES TEIXEIRA",
+      "minima": 10.81,
+      "maxima": 11.14,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HERMANN BREHMER",
+      "minima": 12.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HERMENEGILDO SILVEIRA DA COSTA",
+      "minima": 10.89,
+      "maxima": 11.44,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "HILBERTO BRUCH",
+      "minima": 19.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "HUBERT WARMLING",
+      "minima": 10.5,
+      "maxima": 11.63,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "IDA LENZ",
+      "minima": 17.79,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "IGONALDO MENSLIN",
+      "minima": 12.92,
+      "maxima": 14.16,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "IMPERATRIZ LEOPOLDINA",
+      "minima": 8.11,
+      "maxima": 11.03,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "INCONFIDENCIA",
+      "minima": 10.61,
+      "maxima": 11.49,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "INDAIAL",
+      "minima": 9.76,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "INTENDENTE GUSTAVO BRANDES",
+      "minima": 10.23,
+      "maxima": 17.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "INTENDENTE PEDRO CLAUDINO",
+      "minima": 7.45,
+      "maxima": 8.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ITAIPU",
+      "minima": 14.01,
+      "maxima": 18.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ITAJAÍ",
+      "minima": 11.33,
+      "maxima": 14.02,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ITAPEMA",
+      "minima": 14.26,
+      "maxima": 14.85,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ITUMBIARA",
+      "minima": 9.38,
+      "maxima": 9.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ITUPORANGA",
+      "minima": 10.5,
+      "maxima": 11.63,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "IVO VICTOR FORBICI",
+      "minima": 11.78,
+      "maxima": 13.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JABORA",
+      "minima": 7.56,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JACARANDA",
+      "minima": 15.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JACO FINARDI",
+      "minima": 8.77,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JANET PABST TSCHUMI",
+      "minima": 9.16,
+      "maxima": 9.35,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JARAGUA",
+      "minima": 9.82,
+      "maxima": 15.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JARDIM PANORAMA",
+      "minima": 11.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOACABA",
+      "minima": 8.05,
+      "maxima": 10.32,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOAO BALDASSARI",
+      "minima": 12.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO CAVILHA",
+      "minima": 13.2,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO DOLZAN",
+      "minima": 9,
+      "maxima": 18.28,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOAO EIFLER",
+      "minima": 12.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO FRONZA",
+      "minima": 8.13,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO HOFFMANN",
+      "minima": 8.5,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOAO JACINTO GADOTTI",
+      "minima": 8.3,
+      "maxima": 11.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOAO KRIEGER",
+      "minima": 15.56,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO LEDRA",
+      "minima": 14.2,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO MARCHI",
+      "minima": 7.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO NASCHENWENG",
+      "minima": 14.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO PEDRO DIAS",
+      "minima": 17.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO PEDRO MARCELINO",
+      "minima": 13,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAO STOLF",
+      "minima": 17.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAQUIM CERUTTI",
+      "minima": 9.7,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAQUIM NABUCO",
+      "minima": 14.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOAQUIM PAULINO DE SOUZA",
+      "minima": 18.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOHANN GUTEMBERG",
+      "minima": 9.58,
+      "maxima": 11.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOHANN KEPLER",
+      "minima": 8.92,
+      "maxima": 10,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOINVILLE",
+      "minima": 7.67,
+      "maxima": 10.04,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JORGE SCHUTZ",
+      "minima": 7.59,
+      "maxima": 8.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSE BONIFACIO",
+      "minima": 7.55,
+      "maxima": 9.09,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSE CIMARDI",
+      "minima": 8.3,
+      "maxima": 13.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSE CLEMENTE DEMARCH",
+      "minima": 10.23,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOSE CONINCK",
+      "minima": 12.8,
+      "maxima": 17.8,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSE JOHN",
+      "minima": 14.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOSE MARCHI",
+      "minima": 16.26,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOSE PEREIRA",
+      "minima": 18.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JOSE STADNICK",
+      "minima": 9.11,
+      "maxima": 10.19,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSE ZANIS",
+      "minima": 9.28,
+      "maxima": 10.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JOSEF SOFKA",
+      "minima": 16.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JUCA THIVES",
+      "minima": 8.8,
+      "maxima": 9.8,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JULIO NAU",
+      "minima": 9,
+      "maxima": 12.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JULIO ROUSSENQ FILHO",
+      "minima": 9.62,
+      "maxima": 11.3,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "JULIO SCHLUPP",
+      "minima": 10.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "JUVENTUDE",
+      "minima": 10.21,
+      "maxima": 16.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LAGES",
+      "minima": 11.21,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LAURO MULLER",
+      "minima": 7.3,
+      "maxima": 9.24,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEANDRO DELLAGIUSTINA",
+      "minima": 9.07,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LEANDRO FRANZOI",
+      "minima": 11.6,
+      "maxima": 12.2,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEANDRO MURARA",
+      "minima": 11.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LEBON REGIS",
+      "minima": 7.11,
+      "maxima": 7.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEOPOLDO ALBERTO VAISS",
+      "minima": 11.26,
+      "maxima": 13.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEOPOLDO FUCHS",
+      "minima": 10.5,
+      "maxima": 11.74,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEOPOLDO HARBS",
+      "minima": 10.43,
+      "maxima": 14.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEOPOLDO KURTH",
+      "minima": 11.29,
+      "maxima": 15.93,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LEOPOLDO LEDRA",
+      "minima": 8.97,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LEOPOLDO STAHNKE",
+      "minima": 8.11,
+      "maxima": 8.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LIBERDADE",
+      "minima": 17.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LIDIO PIVA",
+      "minima": 8.69,
+      "maxima": 9.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LILLY BREMER",
+      "minima": 10.76,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LINDOLFO DEGENHARDT",
+      "minima": 19.7,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LONDRINA",
+      "minima": 10.78,
+      "maxima": 11.12,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LONTRAS",
+      "minima": 12.86,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LOURIVAL PEREIRA",
+      "minima": 8.99,
+      "maxima": 9.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUCIANA MARIA TOGGWEILER",
+      "minima": 6.41,
+      "maxima": 8.82,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUCINDO FINARDI",
+      "minima": 10.5,
+      "maxima": 10.99,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUIS PASTEUR",
+      "minima": 7.26,
+      "maxima": 9.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUIZ ALVES",
+      "minima": 15.01,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUIZ FLORENTINO PORTO",
+      "minima": 18.68,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "LUIZ PIAZERA",
+      "minima": 11.7,
+      "maxima": 12.64,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "LUIZ STEDILE",
+      "minima": 8.89,
+      "maxima": 10.79,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MACHADO DE ASSIS",
+      "minima": 7.78,
+      "maxima": 8.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MADRE PAULINA",
+      "minima": 10.46,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MAFRA",
+      "minima": 13.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MAIATE",
+      "minima": 17.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MAJOR VIEIRA",
+      "minima": 18.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MALVINA BATTISTI PETRIS",
+      "minima": 8.94,
+      "maxima": 9.89,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MANOEL JOSE TEIXEIRA",
+      "minima": 10.58,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MANOEL ROUSSENQ",
+      "minima": 8.8,
+      "maxima": 10.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MANOEL SOARES",
+      "minima": 12.26,
+      "maxima": 19.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARANHAO",
+      "minima": 10.67,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MARCELO NAGEL",
+      "minima": 8.5,
+      "maxima": 11.46,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARCILIO DIAS",
+      "minima": 9.77,
+      "maxima": 10.52,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARCONI",
+      "minima": 11,
+      "maxima": 11.56,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARECHAL DEODORO",
+      "minima": 8.49,
+      "maxima": 10.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARECHAL RONDON",
+      "minima": 10.08,
+      "maxima": 11.77,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARIA AUXILIADORA",
+      "minima": 14.8,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MARIA BRUNO",
+      "minima": 17.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MARIA CECHET",
+      "minima": 8.06,
+      "maxima": 8.6,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARIA CECHET LEDRA",
+      "minima": 8.5,
+      "maxima": 8.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARIA LEITE DA SILVA",
+      "minima": 14.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MARIA MACHADO DOS SANTOS",
+      "minima": 11.1,
+      "maxima": 12,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARIA MARCHI",
+      "minima": 14,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MARIO ANDRIANI",
+      "minima": 11.26,
+      "maxima": 11.83,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MARIO DALPONTE",
+      "minima": 18.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MAX WEHMUTH",
+      "minima": 8.8,
+      "maxima": 10.9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MISSISIPE",
+      "minima": 11,
+      "maxima": 12.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "MONDAI",
+      "minima": 12.2,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MONTE CASTELO",
+      "minima": 14.02,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "MONTEIRO LOBATO",
+      "minima": 8.27,
+      "maxima": 8.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "NAVEGANTES",
+      "minima": 9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "NELSON RICARDO SANSAO",
+      "minima": 11.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "NESTOR LAURINDO",
+      "minima": 8.36,
+      "maxima": 8.51,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "NITEROI",
+      "minima": 9.78,
+      "maxima": 13.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "NOSSA SENHORA APARECIDA",
+      "minima": 15.71,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "NOVA ERA",
+      "minima": 9.78,
+      "maxima": 11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ODETE MERENCIO MELO",
+      "minima": 10.1,
+      "maxima": 16.71,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ODORICO TOMAZ FERREIRA",
+      "minima": 8.2,
+      "maxima": 9.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OLAVO BILAC",
+      "minima": 8.9,
+      "maxima": 10.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OLINTHO JORDAO MOLINARI",
+      "minima": 9,
+      "maxima": 10.21,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ORESTES LENZI",
+      "minima": 8.2,
+      "maxima": 9.79,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ORLANDO JOAO AMARO",
+      "minima": 6.7,
+      "maxima": 9,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OSCAR BARCELOS",
+      "minima": 8.95,
+      "maxima": 14.54,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OSCAR KIRSTEN",
+      "minima": 12.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "OSCAR SCHULZE",
+      "minima": 10.11,
+      "maxima": 10.63,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OSCAR STREY",
+      "minima": 19.79,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "OSNY GONCALVES",
+      "minima": 10.18,
+      "maxima": 11.1,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OSVALDO CRUZ",
+      "minima": 10.42,
+      "maxima": 17.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OSVALDO WILVERT",
+      "minima": 14.26,
+      "maxima": 18.61,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OTILIA F DA SILVA",
+      "minima": 16.01,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OTTO ERN",
+      "minima": 9.52,
+      "maxima": 10.7,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "OTTO KLUG",
+      "minima": 19.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "OTTO WETZSTEIN",
+      "minima": 11.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PADRE ANCHIETA",
+      "minima": 7.9,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PADRE FEIJO",
+      "minima": 11.42,
+      "maxima": 17.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PALHOCA",
+      "minima": 8.66,
+      "maxima": 10.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PALMITOS",
+      "minima": 14.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PAPA JOAO XXIII",
+      "minima": 18.25,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PASTOR GERHOLD HOBUS",
+      "minima": 11.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PATRICIO NOVELETO",
+      "minima": 7.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PAUL FRITZ KURT BREHSAN",
+      "minima": 18.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PAULO CESAR TONON",
+      "minima": 8.11,
+      "maxima": 9.37,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PAULO LEDRA",
+      "minima": 9.77,
+      "maxima": 12.36,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO AMERICO",
+      "minima": 8.51,
+      "maxima": 9.59,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO AVELINO DOS SANTOS",
+      "minima": 5.11,
+      "maxima": 13.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO BITTENCOURT",
+      "minima": 10.06,
+      "maxima": 11.62,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO FRANKEMBERGER",
+      "minima": 8.91,
+      "maxima": 13.24,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO LEDRA",
+      "minima": 12.89,
+      "maxima": 13.8,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO LUCAS",
+      "minima": 10.01,
+      "maxima": 11.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO MANOEL AIROSO",
+      "minima": 6.78,
+      "maxima": 9.37,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO MAZZINI",
+      "minima": 5.28,
+      "maxima": 13.28,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PEDRO MORETTO",
+      "minima": 9.63,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PIRATUBA",
+      "minima": 15.48,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PLASIO BILK JUNIOR",
+      "minima": 8.75,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "POETA DRUMMOND",
+      "minima": 9.94,
+      "maxima": 18.86,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PORTO UNIAO",
+      "minima": 9.64,
+      "maxima": 11.49,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "POUSO REDONDO",
+      "minima": 3.11,
+      "maxima": 7.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PREFEITO LUIZ ADELAR SOLDATELLI",
+      "minima": 11.34,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PREFEITO RAULINO JOAO ROSAR",
+      "minima": 9.53,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PREFEITO WENCESLAU BORINI",
+      "minima": 6.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PRESIDENTE KENNEDY",
+      "minima": 9.58,
+      "maxima": 14.31,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "PRINCESA ISABEL",
+      "minima": 8.24,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "PROFESSOR JOAO CONRADO STOLL",
+      "minima": 7.78,
+      "maxima": 18.74,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "QUINTINO",
+      "minima": 8.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RADIALISTA NILTON NOVAES",
+      "minima": 9.88,
+      "maxima": 10.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RAFAEL ROSSA",
+      "minima": 18.29,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RAULINO DOLZAN",
+      "minima": 8.55,
+      "maxima": 9.72,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RINALDO MEZADRI",
+      "minima": 7.74,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RIO DE JANEIRO",
+      "minima": 9.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RIO DO OESTE",
+      "minima": 7.11,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RIO IGUACU",
+      "minima": 10.47,
+      "maxima": 10.91,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RIO NEGRINHO",
+      "minima": 17.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RIO PRETO",
+      "minima": 9.95,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ROBERT HOLLER",
+      "minima": 12.81,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ROBERTO HENRIQUE WAGNER",
+      "minima": 11.21,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ROBERTO KOCH",
+      "minima": 16.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RODOLFO ANTON",
+      "minima": 9.55,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RODOLFO ODEBRECHT",
+      "minima": 19.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RODRIGUES ALVES",
+      "minima": 10.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "ROMAO MACANEIRO",
+      "minima": 11.29,
+      "maxima": 17.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ROQUE PONCIO",
+      "minima": 8.11,
+      "maxima": 9.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "ROSA MARIA HEINZ",
+      "minima": 10.31,
+      "maxima": 16.94,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RUA A DO LOT RES PARQUE DAS FLORES",
+      "minima": 15.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RUDE MESHKER",
+      "minima": 9.93,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RUDOLF FRITSCHE",
+      "minima": 9.5,
+      "maxima": 9.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "RUDOLF SCHOENINGER",
+      "minima": 12.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "RUY BARBOSA",
+      "minima": 8.45,
+      "maxima": 15.02,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SALETE",
+      "minima": 15.11,
+      "maxima": 17.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SAMUEL HOFFMANN",
+      "minima": 18.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SANTO FINARDI",
+      "minima": 9.11,
+      "maxima": 16.4,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SANTOS DUMONT",
+      "minima": 12.75,
+      "maxima": 13.64,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SAO BENTO",
+      "minima": 17.91,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SAO DOMINGOS SAVIO",
+      "minima": 13.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SAO JOAO",
+      "minima": 11.92,
+      "maxima": 13.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SAO JOAQUIM",
+      "minima": 11.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SAO JOSE",
+      "minima": 16.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SAO LEOPOLDO",
+      "minima": 10.01,
+      "maxima": 10.99,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SAO MARCOS",
+      "minima": 10.11,
+      "maxima": 11.74,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SATURNINO C DOS SANTOS",
+      "minima": 9.01,
+      "maxima": 10.49,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SC 302",
+      "minima": 8.55,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1001",
+      "minima": 8.34,
+      "maxima": 9.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1003",
+      "minima": 14.11,
+      "maxima": 16.05,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1005",
+      "minima": 10.69,
+      "maxima": 13.81,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1010",
+      "minima": 8.11,
+      "maxima": 14.85,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1018",
+      "minima": 10.11,
+      "maxima": 16.04,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1021",
+      "minima": 7.34,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1022",
+      "minima": 19.5,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1025",
+      "minima": 14.11,
+      "maxima": 17.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1026",
+      "minima": 15.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 104",
+      "minima": 9.07,
+      "maxima": 10.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 108",
+      "minima": 9.53,
+      "maxima": 9.71,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1100",
+      "minima": 7.48,
+      "maxima": 7.55,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1101",
+      "minima": 7.36,
+      "maxima": 8.02,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1102",
+      "minima": 7.16,
+      "maxima": 7.44,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1105",
+      "minima": 8.12,
+      "maxima": 8.51,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1106",
+      "minima": 8.32,
+      "maxima": 8.36,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 111",
+      "minima": 12.48,
+      "maxima": 12.84,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1113",
+      "minima": 12.45,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1114",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 112",
+      "minima": 13.01,
+      "maxima": 13.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1201",
+      "minima": 17.85,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1203",
+      "minima": 13.96,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1210",
+      "minima": 17.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1305",
+      "minima": 19.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1604",
+      "minima": 3.26,
+      "maxima": 12.47,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1613",
+      "minima": 11.26,
+      "maxima": 11.97,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1702",
+      "minima": 16.71,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1801",
+      "minima": 11.51,
+      "maxima": 11.54,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1803",
+      "minima": 8.28,
+      "maxima": 11.43,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1902",
+      "minima": 8.03,
+      "maxima": 8.41,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 1908",
+      "minima": 14.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1910",
+      "minima": 17.41,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 1912",
+      "minima": 11.24,
+      "maxima": 11.32,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 200",
+      "minima": 9.06,
+      "maxima": 9.73,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2000",
+      "minima": 12.24,
+      "maxima": 12.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2001",
+      "minima": 9.41,
+      "maxima": 12.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2009",
+      "minima": 10.75,
+      "maxima": 12.58,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 202",
+      "minima": 12.01,
+      "maxima": 13.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 204",
+      "minima": 10.01,
+      "maxima": 11.03,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2103",
+      "minima": 10.55,
+      "maxima": 11.55,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2106",
+      "minima": 10.37,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 2501",
+      "minima": 10.59,
+      "maxima": 15.5,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 2502",
+      "minima": 9.82,
+      "maxima": 12.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 301",
+      "minima": 15.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 303",
+      "minima": 8.19,
+      "maxima": 15.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 307",
+      "minima": 8.11,
+      "maxima": 8.56,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 308",
+      "minima": 10.08,
+      "maxima": 10.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 311",
+      "minima": 10.11,
+      "maxima": 14.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 313",
+      "minima": 10.11,
+      "maxima": 15.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 513",
+      "minima": 12.2,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 600",
+      "minima": 15.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 601",
+      "minima": 10.82,
+      "maxima": 12.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 603",
+      "minima": 11.78,
+      "maxima": 15.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 604",
+      "minima": 10.27,
+      "maxima": 10.55,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 610",
+      "minima": 15.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 701",
+      "minima": 8.91,
+      "maxima": 9.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 706",
+      "minima": 9.11,
+      "maxima": 11.46,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 712",
+      "minima": 7.62,
+      "maxima": 9.99,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 714",
+      "minima": 10.11,
+      "maxima": 13.73,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 716",
+      "minima": 9.73,
+      "maxima": 13.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 717",
+      "minima": 10.37,
+      "maxima": 12.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 718",
+      "minima": 12.11,
+      "maxima": 16.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 804",
+      "minima": 10.01,
+      "maxima": 18.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 805",
+      "minima": 12.01,
+      "maxima": 17.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 810",
+      "minima": 17.55,
+      "maxima": 18.98,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 903",
+      "minima": 10.18,
+      "maxima": 11.85,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 904",
+      "minima": 10.37,
+      "maxima": 15.19,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 905",
+      "minima": 11.64,
+      "maxima": 18.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 908",
+      "minima": 10.77,
+      "maxima": 10.79,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 909",
+      "minima": 15.51,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 910",
+      "minima": 13.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SD 911",
+      "minima": 7.59,
+      "maxima": 8.73,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SD 912",
+      "minima": 6.33,
+      "maxima": 7.71,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "SEBASTIAO DOS SANTOS",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SELESTA FRONZA",
+      "minima": 8.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "SEVERINO LENZI",
+      "minima": 11.66,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TAIO",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TAMOIO",
+      "minima": 7.83,
+      "maxima": 8.64,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TANGARA",
+      "minima": 8.67,
+      "maxima": 12.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TEODORO MORASTONI",
+      "minima": 11.05,
+      "maxima": 13.41,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TEREZINHA MARTINS MACHADO",
+      "minima": 8.45,
+      "maxima": 9.02,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TIJUCAS",
+      "minima": 15.29,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TIMBO",
+      "minima": 9.21,
+      "maxima": 15.86,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TIRADENTES",
+      "minima": 14.01,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TOCANTINS",
+      "minima": 13.88,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TRAJANO PAMPLONA",
+      "minima": 9.11,
+      "maxima": 11.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "TROMBUDO CENTRAL",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TUIUTI",
+      "minima": 10.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "TUPI",
+      "minima": 6.88,
+      "maxima": 8.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "URUBICI",
+      "minima": 15.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "URUGUAI",
+      "minima": 16.78,
+      "maxima": 17.14,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VALMOR PASQUALINI",
+      "minima": 18.38,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VATICANO",
+      "minima": 9.76,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VENEZA",
+      "minima": 12.68,
+      "maxima": 18.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VERDE VALE",
+      "minima": 9.89,
+      "maxima": 15.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VEREADOR ADOLFO FRISCHKNECHT",
+      "minima": 17.32,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VEREADOR ANTONIO CAVILHA",
+      "minima": 8.28,
+      "maxima": 9.92,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VEREADOR JURACY ISMAEL DALFOVO",
+      "minima": 12.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VERGILIO CRISTOFOLINI",
+      "minima": 16.28,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VERGINIA LEDRA",
+      "minima": 9.51,
+      "maxima": 12.48,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VICENTE JOAO BARCELOS",
+      "minima": 14.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VICTOR HUGO",
+      "minima": 9.99,
+      "maxima": 11.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VICTOR KONDER",
+      "minima": 8.91,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VICTOR MEIRELLES",
+      "minima": 9.26,
+      "maxima": 11.87,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VIDAL RAMOS",
+      "minima": 8.89,
+      "maxima": 12.63,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VIDEIRA",
+      "minima": 8.43,
+      "maxima": 9.11,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VILA HEINZ",
+      "minima": 9.78,
+      "maxima": 10.46,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VILA IPIRANGA",
+      "minima": 9.01,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VILA PAMPLONA",
+      "minima": 5.99,
+      "maxima": 11.69,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VISCONDE DE CAIRU",
+      "minima": null,
+      "maxima": 19.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VISCONDE DE MAUA",
+      "minima": 10.89,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VITORIA",
+      "minima": 10.32,
+      "maxima": 12.01,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VITORIO BELING",
+      "minima": 12.36,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "VITORIO RAMOS DA SILVA",
+      "minima": 10.27,
+      "maxima": 11.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VITORIO ROPELATO",
+      "minima": 8.79,
+      "maxima": 11.61,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "VOLUNTARIOS DA PATRIA",
+      "minima": 8.46,
+      "maxima": 10.56,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "WALDEMAR BERNARDI",
+      "minima": 12.96,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "WALDEMAR PABST",
+      "minima": 8.48,
+      "maxima": 10.85,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "WALDEMIRO CANDIDO DA SILVA",
+      "minima": 9.78,
+      "maxima": 11.78,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "WALTER HUBSCH",
+      "minima": 9.14,
+      "maxima": 12.26,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "WASHINGTON LUIZ",
+      "minima": 8.78,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "WILLAND KURTH",
+      "minima": 11.27,
+      "maxima": 11.41,
+      "maxima_aberta": false
+    },
+    {
+      "rua": "WILLY ODORIZZI",
+      "minima": 13.44,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "XAVANTINA",
+      "minima": 15.11,
+      "maxima": 20,
+      "maxima_aberta": true
+    },
+    {
+      "rua": "XV DE NOVEMBRO",
+      "minima": 9.5,
+      "maxima": 11.81,
+      "maxima_aberta": false
+    }
+  ]
+}

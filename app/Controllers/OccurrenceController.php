@@ -11,11 +11,11 @@ final class OccurrenceController extends Controller {
     public function api(): void { $this->json(Occurrence::listing($_GET,true)); }
     public function detail(): void {
         $user=Auth::user(); $row=Occurrence::find(V::id($_GET['id']??null),$user);
-        $private=$user && ($user['perfil']==='admin' || (int)$user['id']===(int)$row['usuario_id']);
+        $private=$user && (in_array($user['perfil'],['admin','operador'],true) || (int)$user['id']===(int)$row['usuario_id']);
         $history=DB::all('SELECT status_novo,justificativa,criado_em FROM historico_ocorrencias WHERE ocorrencia_id=?' . ($private?' AND publico=0':' AND publico=1') . ' ORDER BY id DESC',[$row['id']]);
         $this->view('detail',['title'=>$row['titulo'],'row'=>$row,'history'=>$history,'images'=>DB::all('SELECT id FROM ocorrencia_imagens WHERE ocorrencia_id=?',[$row['id']]),
             'confirmations'=>DB::one('SELECT COUNT(*) total FROM confirmacoes WHERE ocorrencia_id=?',[$row['id']])['total'],
-            'similar'=>$user && $user['perfil']==='admin'?Occurrence::similar($row):[]]);
+            'similar'=>$user && in_array($user['perfil'],['admin','operador'],true)?Occurrence::similar($row):[]]);
     }
     public function form(): void {
         $row=empty($_GET['id'])?[]:Occurrence::find(V::id($_GET['id']),Auth::require());

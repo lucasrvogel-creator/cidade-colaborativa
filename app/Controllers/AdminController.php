@@ -21,7 +21,7 @@ final class AdminController extends Controller {
     }
     public function moderate(): void {
         $id=V::id($_POST['id']??null); $reason=V::text($_POST,'justificativa',5,2000);
-        (new OccurrenceService())->transition($id,(string)($_POST['situacao']??''),$reason,Auth::require('admin'),empty($_POST['principal_id'])?null:V::id($_POST['principal_id']));
+        (new OccurrenceService())->transition($id,(string)($_POST['situacao']??''),$reason,Auth::require('staff'),empty($_POST['principal_id'])?null:V::id($_POST['principal_id']));
         flash('Situação atualizada; histórico e notificação registrados.'); redirect('/ocorrencia',['id'=>$id]);
     }
     private function taxonomyType(): string {
@@ -49,6 +49,20 @@ final class AdminController extends Controller {
     }
     public function users(): void { $this->view('admin/users',['title'=>'Usuários e privacidade','rows'=>DB::all('SELECT id,nome,email,perfil,status,exclusao_solicitada_em FROM usuarios ORDER BY id DESC LIMIT 200')]); }
     public function saveUser(): void {
+        if (empty($_POST['id'])) {
+            $admin=Auth::require('admin');
+            $name=V::text($_POST,'nome',3,120);
+            $email=mb_strtolower(V::text($_POST,'email',5,190));
+            $role=$_POST['perfil']??'';
+            if (!filter_var($email,FILTER_VALIDATE_EMAIL) || !in_array($role,['cidadao','operador','admin'],true)) throw new HttpError(422,'E-mail ou perfil inválido.');
+            $password=V::password($_POST);
+            if (DB::one('SELECT id FROM usuarios WHERE email=?',[$email])) throw new HttpError(422,'E-mail já cadastrado.');
+            DB::transaction(function () use ($admin,$name,$email,$role,$password) {
+                $id=DB::insert('usuarios',['nome'=>$name,'email'=>$email,'perfil'=>$role,'senha_hash'=>password_hash($password,PASSWORD_DEFAULT)]);
+                OccurrenceService::audit($admin['id'],'criar_usuario','usuarios',$id,'Perfil: '.$role);
+            });
+            flash('Conta cadastrada.'); redirect('/admin/usuarios');
+        }
         $admin=Auth::require('admin'); $id=V::id($_POST['id']??null);
         if ($id===(int)$admin['id']) throw new HttpError(422,'Não é permitido alterar sua própria permissão ou situação por esta tela.');
         DB::transaction(function () use ($id,$admin) {
@@ -58,7 +72,7 @@ final class AdminController extends Controller {
                 DB::query("UPDATE usuarios SET nome='Pessoa anonimizada',email=?,senha_hash=?,status='anonimizado',perfil='cidadao' WHERE id=?",['anonimo-'.$id.'@example.invalid',password_hash(bin2hex(random_bytes(32)),PASSWORD_DEFAULT),$id]);
             } else {
                 $role=$_POST['perfil']??''; $status=$_POST['status']??'';
-                if (!in_array($role,['cidadao','admin'],true) || !in_array($status,['ativo','suspenso'],true) || $row['status']==='anonimizado') throw new HttpError(422,'Perfil ou situação inválida.');
+                if (!in_array($role,['cidadao','operador','admin'],true) || !in_array($status,['ativo','suspenso'],true) || $row['status']==='anonimizado') throw new HttpError(422,'Perfil ou situação inválida.');
                 DB::query('UPDATE usuarios SET perfil=?,status=? WHERE id=?',[$role,$status,$id]);
             }
             OccurrenceService::audit($admin['id'],'gerenciar_usuario','usuarios',$id,'Operação: ' . (($_POST['acao']??'')==='anonimizar'?'anonimização':'permissões/situação'));
@@ -75,7 +89,7 @@ final class AdminController extends Controller {
         if (!in_array($status,['RESOLVIDA','ARQUIVADA'],true)) throw new HttpError(422,'Parecer inválido.');
         DB::transaction(function () use ($type,$id,$reason,$status) {
             $row=DB::one("SELECT * FROM $type WHERE id=? AND status='PENDENTE' FOR UPDATE",[$id]); if (!$row) throw new HttpError(422,'Solicitação já analisada ou inexistente.');
-            DB::query("UPDATE $type SET status=?,parecer=?,administrador_id=?,analisado_em=NOW() WHERE id=?",[$status,$reason,Auth::require('admin')['id'],$id]);
+            DB::query("UPDATE $type SET status=?,parecer=?,administrador_id=?,analisado_em=NOW() WHERE id=?",[$status,$reason,Auth::require('staff')['id'],$id]);
             OccurrenceService::audit(Auth::require('admin')['id'],'analisar_solicitacao',$type,$id,$status);
         }); flash('Análise registrada. A situação da ocorrência é alterada separadamente na tela de moderação.'); redirect('/admin/solicitacoes',['tipo'=>$type]);
     }

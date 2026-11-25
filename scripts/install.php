@@ -7,4 +7,6 @@ use App\Models\Database as DB;
 if (DB::all('SHOW TABLES')) { fwrite(STDERR, "Instalação interrompida: use um banco vazio.\n"); exit(1); }
 DB::connection()->exec(file_get_contents(ROOT . '/database/schema.sql'));
 DB::connection()->exec(file_get_contents(ROOT . '/database/seed.sql'));
+require ROOT.'/scripts/migrate.php';
+\App\Services\QuotaImporter::import();
 echo "Estrutura instalada com dados explicitamente demonstrativos.\n";

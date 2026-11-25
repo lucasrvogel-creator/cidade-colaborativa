@@ -37,7 +37,7 @@ final class OccurrenceService {
         } catch (\Throwable $e) { ImageUpload::cleanup($images); throw $e; }
     }
     public function transition(int $id, string $to, string $reason, array $admin, ?int $principal=null): void {
-        if ($admin['perfil']!=='admin') throw new HttpError(403,'Apenas administradores podem moderar.');
+        if (!in_array($admin['perfil'],['admin','operador'],true)) throw new HttpError(403,'Apenas administradores podem moderar.');
         DB::transaction(function () use ($id,$to,$reason,$admin,$principal) {
             $old=DB::one('SELECT * FROM ocorrencias WHERE id=? FOR UPDATE',[$id]);
             if (!$old) throw new HttpError(404,'Ocorrência não encontrada.');
