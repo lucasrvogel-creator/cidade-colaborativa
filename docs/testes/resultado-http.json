@@ -1,0 +1,404 @@
+{
+    "executado_em": "2026-11-25T16:56:09-03:00",
+    "ambiente": "PHP 8.3.30 \/ MySQL local \/ HTTP",
+    "aprovados": 99,
+    "falhas": 0,
+    "casos": [
+        {
+            "name": "Página pública \/",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/mapa",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/ocorrencias",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/indicadores",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/avisos",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/sobre",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/privacidade",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/entrar",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/cadastro",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/enchentes",
+            "passed": true
+        },
+        {
+            "name": "Página pública \/cotas",
+            "passed": true
+        },
+        {
+            "name": "Cookies HttpOnly e SameSite",
+            "passed": true
+        },
+        {
+            "name": "Admin anônimo bloqueado",
+            "passed": true
+        },
+        {
+            "name": "Ausência de CSRF bloqueada",
+            "passed": true
+        },
+        {
+            "name": "Cadastro válido",
+            "passed": true
+        },
+        {
+            "name": "Cadastro não pode se tornar administrador",
+            "passed": true
+        },
+        {
+            "name": "E-mail duplicado rejeitado",
+            "passed": true
+        },
+        {
+            "name": "Senha é hash verificável",
+            "passed": true
+        },
+        {
+            "name": "Login inválido",
+            "passed": true
+        },
+        {
+            "name": "Login válido",
+            "passed": true
+        },
+        {
+            "name": "Cidadão não acessa administração",
+            "passed": true
+        },
+        {
+            "name": "Login de admin-8e45f807e123@example.invalid",
+            "passed": true
+        },
+        {
+            "name": "Login de outro-8e45f807e123@example.invalid",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/ocorrencias",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/usuarios",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/cadastros",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/solicitacoes",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/avisos",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/enchentes",
+            "passed": true
+        },
+        {
+            "name": "Tela administrativa \/admin\/auditoria",
+            "passed": true
+        },
+        {
+            "name": "Administrador cria operador",
+            "passed": true
+        },
+        {
+            "name": "Login de operador",
+            "passed": true
+        },
+        {
+            "name": "Operador consulta chamados",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin\/usuarios",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin\/cadastros",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin\/avisos",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin\/enchentes",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/admin\/auditoria",
+            "passed": true
+        },
+        {
+            "name": "Operador sem acesso a \/nova",
+            "passed": true
+        },
+        {
+            "name": "Operador não grava \/admin\/usuarios",
+            "passed": true
+        },
+        {
+            "name": "Operador não grava \/admin\/cadastros",
+            "passed": true
+        },
+        {
+            "name": "Operador não grava \/admin\/avisos",
+            "passed": true
+        },
+        {
+            "name": "Operador não grava \/admin\/enchentes",
+            "passed": true
+        },
+        {
+            "name": "Operador não grava \/ocorrencia",
+            "passed": true
+        },
+        {
+            "name": "Cidadão não consulta fila",
+            "passed": true
+        },
+        {
+            "name": "Cidadão não modera",
+            "passed": true
+        },
+        {
+            "name": "Snapshot oficial tem 555 ruas",
+            "passed": true
+        },
+        {
+            "name": "Importação oficial sem duplicação",
+            "passed": true
+        },
+        {
+            "name": "Cotas oficiais sem bairros inventados",
+            "passed": true
+        },
+        {
+            "name": "Busca de cotas oficial",
+            "passed": true
+        },
+        {
+            "name": "Registro sem campos obrigatórios",
+            "passed": true
+        },
+        {
+            "name": "Localização inválida",
+            "passed": true
+        },
+        {
+            "name": "Subcategoria incompatível",
+            "passed": true
+        },
+        {
+            "name": "Upload executável rejeitado",
+            "passed": true
+        },
+        {
+            "name": "Imagem acima de 5 MB rejeitada",
+            "passed": true
+        },
+        {
+            "name": "Registro com imagem válida",
+            "passed": true
+        },
+        {
+            "name": "Registro começa pendente",
+            "passed": true
+        },
+        {
+            "name": "Upload recodificado para JPEG",
+            "passed": true
+        },
+        {
+            "name": "Relato pendente não é público",
+            "passed": true
+        },
+        {
+            "name": "Foto pendente não é pública",
+            "passed": true
+        },
+        {
+            "name": "Outro cidadão não lê relato pendente",
+            "passed": true
+        },
+        {
+            "name": "Operador consulta relato pendente",
+            "passed": true
+        },
+        {
+            "name": "Autor consulta relato privado",
+            "passed": true
+        },
+        {
+            "name": "XSS escapado",
+            "passed": true
+        },
+        {
+            "name": "Outro cidadão não edita",
+            "passed": true
+        },
+        {
+            "name": "SQL injection em ID rejeitada",
+            "passed": true
+        },
+        {
+            "name": "Busca SQL injection não altera consulta",
+            "passed": true
+        },
+        {
+            "name": "Rejeição sem justificativa bloqueada",
+            "passed": true
+        },
+        {
+            "name": "Solicitar correção",
+            "passed": true
+        },
+        {
+            "name": "Autor edita e reenvia",
+            "passed": true
+        },
+        {
+            "name": "Edição retorna a pendente",
+            "passed": true
+        },
+        {
+            "name": "Aprovar publicação",
+            "passed": true
+        },
+        {
+            "name": "Relato aprovado público",
+            "passed": true
+        },
+        {
+            "name": "Foto aprovada pública",
+            "passed": true
+        },
+        {
+            "name": "Mapa filtra categoria e busca",
+            "passed": true
+        },
+        {
+            "name": "Mapa respeita região",
+            "passed": true
+        },
+        {
+            "name": "Autor não edita publicada",
+            "passed": true
+        },
+        {
+            "name": "Autor não confirma própria",
+            "passed": true
+        },
+        {
+            "name": "Confirmação por outro cidadão",
+            "passed": true
+        },
+        {
+            "name": "Confirmação duplicada rejeitada",
+            "passed": true
+        },
+        {
+            "name": "Denúncia registrada",
+            "passed": true
+        },
+        {
+            "name": "Denúncia não oculta automaticamente",
+            "passed": true
+        },
+        {
+            "name": "Sugestão de resolução",
+            "passed": true
+        },
+        {
+            "name": "Transição inválida rejeitada",
+            "passed": true
+        },
+        {
+            "name": "Operador resolve ocorrência",
+            "passed": true
+        },
+        {
+            "name": "Resolução tem data",
+            "passed": true
+        },
+        {
+            "name": "Histórico e notificação persistidos",
+            "passed": true
+        },
+        {
+            "name": "Auditoria persistida",
+            "passed": true
+        },
+        {
+            "name": "Indicadores consistentes",
+            "passed": true
+        },
+        {
+            "name": "Suspensão revoga sessão ativa",
+            "passed": true
+        },
+        {
+            "name": "Indisponibilidade hidrológica explícita",
+            "passed": true
+        },
+        {
+            "name": "Simulação compara cota compatível",
+            "passed": true
+        },
+        {
+            "name": "Cotas incompatíveis rejeitadas",
+            "passed": true
+        },
+        {
+            "name": "Cadastro de categoria",
+            "passed": true
+        },
+        {
+            "name": "Desativar categoria sem apagar",
+            "passed": true
+        },
+        {
+            "name": "Logout",
+            "passed": true
+        },
+        {
+            "name": "Sessão encerrada",
+            "passed": true
+        }
+    ]
+}
