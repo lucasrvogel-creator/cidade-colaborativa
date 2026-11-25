@@ -6,6 +6,5 @@ use App\Models\Database as DB;
 DB::query('CREATE TABLE IF NOT EXISTS migrations (nome VARCHAR(190) PRIMARY KEY, executada_em DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP)');
 foreach(glob(ROOT.'/database/migrations/*.sql') as $file){
  $name=basename($file);if(DB::one('SELECT nome FROM migrations WHERE nome=?',[$name]))continue;
- // MySQL executa DDL com commit implícito. Fazer backup antes de migrar um banco real.
  DB::connection()->exec(file_get_contents($file));DB::insert('migrations',['nome'=>$name]);echo "Aplicada: $name\n";
 }
