@@ -31,7 +31,7 @@ if (byId('occurrence-map')) {
         const link = textNode('a', 'Ver detalhes'); link.href = endpoint('/ocorrencia', { id: row.id }); popup.append(link);
         const iconElement = textNode('i', '', /^[-a-z0-9]+$/.test(row.icone) ? `bi bi-${row.icone}` : 'bi bi-geo-alt');
         const icon = L.divIcon({ className: `map-pin ${row.status}`, html: iconElement, iconSize: [32,32] });
-        L.marker([Number(row.latitude), Number(row.longitude)], { icon, title: row.titulo }).bindPopup(popup).addTo(markers);
+        L.marker([Number(row.latitude), Number(row.longitude)], { icon, title: row.titulo, alt: row.titulo }).bindPopup(popup).addTo(markers);
       }
       mapStatus(result.limited ? 'Exibindo até 500 relatos. Aproxime o mapa ou aplique filtros.' : `${result.total} relatos nesta área.`);
     } catch (error) { if (error.name !== 'AbortError') mapStatus(error.message); }
